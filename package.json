@@ -1,0 +1,35 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/CRUDBookSQLite.js",
+    "dev": "nodemon src/CRUDBookSQLite.js",
+    "format": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wanprasert/NodeREST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wanprasert/NodeREST/issues"
+  },
+  "homepage": "https://github.com/Wanprasert/NodeREST#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "pg": "^8.10.0",
+    "sequelize": "^6.29.3",
+    "sqlite3": "^5.1.6"
+  }
+}
